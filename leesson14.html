@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14</title>
+    <style>
+        content {
+    margin-right: 100px; /* Make room for the sidebar */
+    padding: 20px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 400px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* .fullpage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 9999; 
+} */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #fff;
+    padding: 30px 100px ;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+}
+/* 
+.header {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header img {
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+.header button {
+    background-color: #5086f4;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+} */
+.header {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between; /* This will distribute space between items */
+}
+
+.header .left-section {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+
+.header button {
+    background-color: #5086f4;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    margin-left: auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.discord{    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100%;
+    background-color: #1c2023;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.discord img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    display: block;
+
+}
+
+.info{
+    color: white;
+    margin-left: 72px;
+    position: absolute;
+    top: 0;
+    width: 500px;
+    height: 100%;
+    background-color: #404951;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.ya{
+    margin-top: 50px;
+    display: block;
+    color: grey;
+}
+    </style>
+</head>
+<body style="height: 3000px;">
+    <!-- 14a -->
+    <p
+        style="background-color: black; color: white; padding: 10px ; 
+        display: inline-block; position: absolute; bottom: 10px; right: 10px;margin-top: 100px; position: fixed;">
+        bottom-right</p>
+        <!-- 14b -->
+        <div style="height: 100px;"></div>
+    <div class="sidebar">right sidebar</div>
+    <!-- 14c -->
+    <div class="fullpage"></div>
+    <!-- 14d -->
+    <div class="overlay">
+        <div class="modal">
+            <h2 style="font-family: Arial, Helvetica, sans-serifx; margin-bottom: 0px;">Modal Title</h2>
+            <p style="font-family: Arial, Helvetica, sans-serif; margin-top: 0px; margin-bottom: 50px;">This is modal</p>
+            <button class="close-button">Close</button>
+        </div>
+    </div>
+    <!-- 14e -->
+    <div class="header">
+        <img src="nd.jpg" alt="" width="40" height="40"> 
+        <span>Oliver Cat</span>
+        <button style="margin-right: 1px;">Add Friend</button>
+        <button style="margin-left: 0px;">Message</button>
+    </div>
+    <!-- 14f  -->
+
+</body>
+
+</html>

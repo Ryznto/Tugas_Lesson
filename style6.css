@@ -1,0 +1,16 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black !important;
+
+}
+
+a span {
+    text-decoration: underline;
+}
+a, h1 {
+    font-family: "Montserrat";
+}
